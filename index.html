@@ -649,17 +649,16 @@
     </div>
 
           <!-- form section -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-5 gap-8
-    lg:h-[760px] w-96 lg:w-[700px] justify-evenly">
+    <div class="gap-8 lg:h-[760px] w-96 lg:w-[700px] justify-evenly">
 
 <!-- section-1 -->
 
-        <div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 justify-center lg:ml-0 gap-4">
             <label class="form-control w-full max-w-xs">
                 <div class="label">
                   <span class="label-text font-extrabold">Your name</span>
                 </div>
-                <input type="text" placeholder="Enter your name" class="input input-bordered  bg-gray-100 w-full max-w-xs" />
+                <input type="text" placeholder="Enter your name" class="input input-bordered  bg-gray-100 w-96 lg:w-auto " />
               </label>   
         
 
@@ -667,35 +666,27 @@
                 <div class="label">
                   <span class="label-text font-extrabold">Your Subject</span>
                 </div>
-                <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs bg-gray-100" />
+                <input type="text" placeholder="Enter your subject" class="input input-bordered bg-gray-100 w-96 lg:w-auto" />
+              </label>
+
+
+              <label class="form-control w-full max-w-xs">
+                <div class="label">
+                  <span class="label-text font-extrabold">Email</span>
+                </div>
+                <input type="text" placeholder="Enter your Email" class="input input-bordered w-96 lg:w-auto bg-gray-100" />
+              </label>  
+    
+              <label class="">
+                <div class="label">
+                  <span class="label-text font-extrabold">Phone Number</span>
+                </div>
+                <input type="text" placeholder="Enter your number" class="input input-bordered w-96 lg:w-auto bg-gray-100" />
               </label>
 
         </div>
         
-     <!-- section-2 -->
-
-         <div>
-
-           
-          <label class="form-control w-full max-w-xs">
-            <div class="label">
-              <span class="label-text font-extrabold">Email</span>
-            </div>
-            <input type="text" placeholder="Enter your Email" class="input input-bordered w-full max-w-xs bg-gray-100" />
-          </label>  
-
-          <label class="">
-            <div class="label">
-              <span class="label-text font-extrabold">Phone Number</span>
-            </div>
-            <input type="text" placeholder="Enter your number" class="input input-bordered w-full max-w-xs bg-gray-100" />
-          </label>
- 
-
-         </div>
-          
-
-      <!--section-3  -->
+      <!--section-2  -->
 
       <div class="mt-5 col-span-2 row-span-3">
 
@@ -710,7 +701,7 @@
 
       <div class=" lg:col-span-2">
         <button class="text-white btn bg-button-primary 
-        lg:w-[700px] w-96">Send Message</button>
+        lg:w-[700px] w-96 mt-4 lg:mt-12">Send Message</button>
       </div>
 
   </div>
